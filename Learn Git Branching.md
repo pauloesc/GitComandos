@@ -119,6 +119,7 @@ git commit;
 ### 5.1 Rebasing over 9000 times
 ```
 git rebase master bugFix;
+en master pone la rama bugFix
 git rebase bugFix side;
 git rebase side another;
 git rebase another master;
