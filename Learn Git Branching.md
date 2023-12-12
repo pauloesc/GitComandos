@@ -59,6 +59,8 @@ git checkout C1;
 git reset local~1;
 git checkout pushed;
 git revert pushed;
+
+pushed es una rama remota
 ```
 
 ### 3.1 Cherry-pick Intro
