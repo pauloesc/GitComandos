@@ -57,6 +57,8 @@ git checkout C1;
 ### 2.4 Reversing Changes in Git
 ```
 git reset local~1;
+Elimina todos los commit desde HEAD hasta  el commit equivalente a local~1 (sin eliminar local~1)
+ 
 git checkout pushed;
 git revert pushed;
 
