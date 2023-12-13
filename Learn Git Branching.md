@@ -58,6 +58,7 @@ git checkout C1;
 ```
 git reset local~1;
 Elimina todos los commit desde HEAD hasta  el commit equivalente a local~1 (sin eliminar local~1)
+Hay que tener cuidado ya que cuando se borran dichos commit, los archivos quedan con la version del commit eliminado, no se va directamente a la version del ultimo commit (local~1) de la rama. Para solucionar esto hacemos git restore . (el punto funciona como un *)
  
 git checkout pushed;
 git revert pushed;
