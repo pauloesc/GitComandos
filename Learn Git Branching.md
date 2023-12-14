@@ -1,9 +1,5 @@
 # Learning Git Branching
 
-Please do not continue if you have not learned the content covered in these assignments. It is important to learn the material. However if, like me, you find yourself needing to complete arbitrary tasks for classes you are capable of testing out of - but its not offered. Please continue...
-
-**README: To use this quickly, copy and paste the entire block of code in the 'console' using CTRL-V. They have been written so you do not need to copy each line, one-by-one**
-
 ## Main
 
 ### 1.1 Introduction to Git Commits
