@@ -400,3 +400,43 @@ paulo@paulo-hp:~/Desktop/v6$ git map
 * 846debe subi puntos
 
 ```
+
+
+
+### Resulado de consola 5
+
+Rebase, ¿que pasa si eliminamos un commit donde hay una bifurcacion?
+
+```
+paulo@paulo-hp:~/Desktop/v6$ git map
+* bd07e58 (HEAD -> rama3) rama33
+| * ce7e165 (rama1) 4 mod
+| * b08266e 2
+| * 045a200 1
+|/  
+* c24dd52 (tag: hhh, master) e
+* 3348cd5 d
+* 79f3252 c
+* bf86186 b
+* dbad89b a
+* 846debe subi puntos
+paulo@paulo-hp:~/Desktop/v6$ 
+paulo@paulo-hp:~/Desktop/v6$ 
+paulo@paulo-hp:~/Desktop/v6$ git rebase -i bf86186
+Successfully rebased and updated refs/heads/rama3.
+paulo@paulo-hp:~/Desktop/v6$ git rebase -i bf86186
+Successfully rebased and updated refs/heads/rama3.
+paulo@paulo-hp:~/Desktop/v6$ git map
+* c68c33b (HEAD -> rama3) rama33
+| * ce7e165 (rama1) 4 mod
+| * b08266e 2
+| * 045a200 1
+| * c24dd52 (tag: hhh, master) e
+| * 3348cd5 d
+| * 79f3252 c
+|/  
+* bf86186 b
+* dbad89b a
+* 846debe subi puntos
+paulo@paulo-hp:~/Desktop/v6$ 
+```
