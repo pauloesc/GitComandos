@@ -258,7 +258,9 @@ git pull origin master:side;
 -----
 
 ### resultados de consola 1
-*Observar que no es lo mismo (HEAD, nueva2) que (HEAD -> nueva2)
+
+Observar que no es lo mismo (HEAD, nueva2) que (HEAD -> nueva2)
+
 ```
 paulo@paulo-hp:~/Desktop/v5$ git map
 * 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
