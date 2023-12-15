@@ -1,4 +1,4 @@
-### Comando util:
+### 1.0 Comando util:
 ```
 git config --global alias.map "log --all --decorate --oneline --graph"
 ```
