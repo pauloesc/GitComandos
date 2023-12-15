@@ -171,6 +171,15 @@ git commit;
 ```
 
 ### 1.3 Git Fetchin’
+
+git fetch hace dos cosas:
+1) Baja los commits que el remoto tiene pero no están en nuestro repositorio local, y...
+2) Actualiza a dónde apuntan nuestras ramas remotas (por ejemplo, o/main)
+
+Sin embargo, git fetch no modifica en absoluto tu estado local.
+No va a actualizar tu rama main ni va a cambiar nada sobre cómo se ve tu sistema de archivos en este momento.
+Es importante entender esto, ya que hay quienes piensan que correr git fetch hará que su estado local refleje el estado del remoto (y no es asi)
+
 ```
 git fetch;
 ```
