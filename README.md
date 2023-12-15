@@ -185,6 +185,9 @@ git fetch;
 ```
 
 ### 1.4 Git Pullin’
+
+Para fetchear cambios remotos y después mergearlos usamos:
+
 ```
 git pull;
 ```
