@@ -297,10 +297,12 @@ paulo@paulo-hp:~/Desktop/v5$ git map
 * d30f106 b
 * 50a2c24 a
 paulo@paulo-hp:~/Desktop/v5$ 
+``
 
-´´´
 
-###Resultados consola 2
+
+### resultados de consola 2
+
 ```
 paulo@paulo-hp:~/Desktop/v5$ git map
 * 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
@@ -329,4 +331,4 @@ Or undo this operation with:
 Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at f100fda c
-´´´
+``
