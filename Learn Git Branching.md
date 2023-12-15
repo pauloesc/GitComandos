@@ -89,9 +89,9 @@ git cherry-pick C4;
 
 ### 4.2 Juggling Commits
 ```
-git rebase -i caption~2 --aboveAll;
+git rebase -i caption~2;
 git commit --amend;
-git rebase -i caption~2 --aboveAll;
+git rebase -i caption~2;
 git branch -f master caption;
 ```
 *1) For the solution, order the commits as C3, C2. You may need to omit or pick commits.*
