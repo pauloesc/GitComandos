@@ -91,6 +91,10 @@ git cherry-pick C4;
 ```
 git rebase -i caption~2;
 git commit --amend;
+
+"git commit --amend" permite que los los ultimos cambios que realize se incorporen al commit ya existente, ademas permite modificar el comentario del commit existente.
+COMO USARLO: luego de hacer cmabios en los archivos hayq ue hacer: 1) git add . 2) git commit --amend
+
 git rebase -i caption~2;
 git branch -f master caption;
 ```
