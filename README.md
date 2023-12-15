@@ -160,15 +160,13 @@ git clone;
 
 ### 1.2 Remote Branches
 
-
 ```
-Entonces, si mirás una rama llamada o/main, el nombre de la rama es main, y el nombre del remoto es o.
 <nombre del remoto>/<nombre de la rama>
 ```
 
 ```
 git commit;
-git checkout o/master;
+git checkout o/master (cuando trabajamos sobre una rama remota estamos en modo detached)
 git commit;
 ```
 
