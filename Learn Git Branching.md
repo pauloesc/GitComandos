@@ -406,6 +406,7 @@ paulo@paulo-hp:~/Desktop/v6$ git map
 ### Resulado de consola 5
 
 Rebase, ¿que pasa si eliminamos un commit donde hay una bifurcacion?
+¿que pasa si intentamos eliminar los commit "e" "d" "c"?
 
 ```
 paulo@paulo-hp:~/Desktop/v6$ git map
