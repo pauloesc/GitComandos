@@ -32,6 +32,7 @@ git commit;
 git checkout bugFix;
 git rebase master;
 
+git rebase master toma el ultimo commit de la rama donde estoy pardo y lo manda a master
 git rebase hace una integracion (no se llama merge) por lo que se pueden generar conflictos
 ```
 
