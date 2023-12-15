@@ -78,8 +78,9 @@ git cherry-pick C3 C4 C7;
 git rebase -i overHere;
 
 si hago git rebase -i C3:
-1. Si c3 es un ancestro de donde estoy parado (HEAD), se toman todos los commit desde donde estoy parado hasta c3 (sin incluir c3). El resultado del rebase sobre escribe la rama. 
-2. Si c3 esta en otra rama, se toman todos los commit desde donde estoy parado hatsa el commit donde se genera la bifurcacion que da lugar a las dos ramas 
+1. Si c3 es un ancestro de donde estoy parado (HEAD), se toman todos los commit desde donde estoy parado hasta c3 (sin incluir c3). El resultado del rebase sobrescribe la rama donde me encuentro.
+
+2. Si c3 esta en otra rama, se toman todos los commit desde donde estoy parado hatsa el commit donde se genera la bifurcacion que da lugar a las dos ramas, y los pone sobre la rama a rebasar.
 
 ```
 *For the solution, order the commits as C3, C5, C4. You may need to omit or pick commits.*
