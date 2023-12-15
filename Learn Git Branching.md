@@ -297,7 +297,7 @@ paulo@paulo-hp:~/Desktop/v5$ git map
 * d30f106 b
 * 50a2c24 a
 paulo@paulo-hp:~/Desktop/v5$ 
-``
+```
 
 
 
@@ -331,4 +331,4 @@ Or undo this operation with:
 Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at f100fda c
-``
+```
