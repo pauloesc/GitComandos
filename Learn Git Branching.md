@@ -370,8 +370,10 @@ paulo@paulo-hp:~/Desktop/v5$ git map
 
 
 
-### Resulado de consola
-Rebase 
+### Resulado de consola 4
+
+Rebase
+
 ```
 paulo@paulo-hp:~/Desktop/v6$ git map
 * ace7c1e (HEAD -> rama1) dos
