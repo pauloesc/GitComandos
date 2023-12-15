@@ -1,5 +1,7 @@
-## Comando util:
+### Comando util:
+```
 git config --global alias.map "log --all --decorate --oneline --graph"
+```
 
 ### 1.1 Introduction to Git Commits
 ```
