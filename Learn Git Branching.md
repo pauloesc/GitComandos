@@ -332,3 +332,35 @@ Turn off this advice by setting config variable advice.detachedHead to false
 
 HEAD is now at f100fda c
 ```
+
+### Resultado de consola 3
+Uso de git switch -c
+
+```
+paulo@paulo-hp:~/Desktop/v5$ git map
+* e64fa85 (HEAD) 111
+| * 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+| * fc3ab79 f
+|/  
+* 563c3d0 (nueva2) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+paulo@paulo-hp:~/Desktop/v5$ git status
+HEAD detached from 563c3d0
+nothing to commit, working tree clean
+paulo@paulo-hp:~/Desktop/v5$ git switch -c sol
+Switched to a new branch 'sol'
+paulo@paulo-hp:~/Desktop/v5$ git map
+* e64fa85 (HEAD -> sol) 111
+| * 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+| * fc3ab79 f
+|/  
+* 563c3d0 (nueva2) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+
+```
