@@ -367,3 +367,34 @@ paulo@paulo-hp:~/Desktop/v5$ git map
 * 50a2c24 a
 
 ```
+
+
+
+### Resulado de consola
+Rebase 
+```
+paulo@paulo-hp:~/Desktop/v6$ git map
+* ace7c1e (HEAD -> rama1) dos
+* fbccfa2 uno
+| * 4fea6a7 (master) f
+| * c24dd52 e
+| * 3348cd5 d
+| * 79f3252 c
+| * bf86186 b
+| * dbad89b a
+|/  
+* 846debe subi puntos
+paulo@paulo-hp:~/Desktop/v6$ git rebase master
+Successfully rebased and updated refs/heads/rama1.
+paulo@paulo-hp:~/Desktop/v6$ git map
+* bec7983 (HEAD -> rama1) dos
+* b3b3af6 uno
+* 4fea6a7 (master) f
+* c24dd52 e
+* 3348cd5 d
+* 79f3252 c
+* bf86186 b
+* dbad89b a
+* 846debe subi puntos
+
+```
