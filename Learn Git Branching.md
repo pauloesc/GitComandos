@@ -300,3 +300,33 @@ paulo@paulo-hp:~/Desktop/v5$
 
 ´´´
 
+###Resultados consola 2
+```
+paulo@paulo-hp:~/Desktop/v5$ git map
+* 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+* fc3ab79 f
+* 563c3d0 (HEAD -> nueva2) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+paulo@paulo-hp:~/Desktop/v5$ git checkout f100fda
+Note: switching to 'f100fda'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at f100fda c
+´´´
