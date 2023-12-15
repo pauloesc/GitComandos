@@ -31,6 +31,8 @@ git checkout master;
 git commit;
 git checkout bugFix;
 git rebase master;
+
+git rebase hace una integracion (no se llama merge) por lo que se pueden generar conflictos
 ```
 
 ### 2.1 Detach yo’ HEAD
