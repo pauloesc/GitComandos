@@ -257,5 +257,43 @@ git pull origin master:side;
 
 -----
 
-`learn-git-branching-solution` `learn-git-branching-main`  `learn-git-branching-remote` `learn git branching solution` `learn git branching main`  `learn git branching remote` 
+### resultados de consola 1
+```
+paulo@paulo-hp:~/Desktop/v5$ git map
+* 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+* fc3ab79 f
+* 563c3d0 (HEAD) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+
+paulo@paulo-hp:~/Desktop/v5$ git branch
+* (HEAD detached at 563c3d0)
+  master
+  nueva
+
+paulo@paulo-hp:~/Desktop/v5$ git branch nueva2
+paulo@paulo-hp:~/Desktop/v5$ git map
+* 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+* fc3ab79 f
+* 563c3d0 (HEAD, nueva2) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+
+paulo@paulo-hp:~/Desktop/v5$ git checkout nueva2
+Switched to branch 'nueva2'
+paulo@paulo-hp:~/Desktop/v5$ git map
+* 2ea677a (master) kdsjnjnbdfbndfhv modificado 1 modificado dos con NuevaLinea
+* fc3ab79 f
+* 563c3d0 (HEAD -> nueva2) e
+* 7fee8b5 d
+* f100fda (nueva) c
+* d30f106 b
+* 50a2c24 a
+paulo@paulo-hp:~/Desktop/v5$ 
+
+´´´
 
