@@ -203,6 +203,7 @@ git pull;
 ### 1.6 Git Pushin’
 
 git push es el responsable de subir tus cambios a un remoto
+cuando hacemos "git push" nuestra rama remota se actualiza (cambia a donde esta el  HEAD)
 
 ```
 git clone;
