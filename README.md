@@ -296,6 +296,8 @@ Si hacemos:
 + git commit;
 + git push (en el remoto si se actualiza la rama main, de hecho foo no existe en el remoto)
 
+El resultado deja los repositorios (local y remoto) como la foto de arriba.
+
 ```
 git checkout -b side o/master;
 git commit;
