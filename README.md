@@ -364,6 +364,9 @@ git push origin foo:master;
 
 ### 2.6 Fetch arguments
 
+git fetch (sin especficar nada) simplemente descarga ***todos los commits*** del remoto a ***todas las ramas*** remotas.
+
+
 Si especificás un lugar con git fetch como en el comando siguiente:
 
 ```
