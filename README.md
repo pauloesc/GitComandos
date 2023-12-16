@@ -391,8 +391,8 @@ git merge master;
 
 ### 2.7 Source of nothing
 ```
-git push origin :foo;
-git fetch origin :bar;
+git push origin :foo; elimina del repositorio remoto la rama foo.(del repositorio remoto, no del local)
+git fetch origin :bar; crea una nueva rama en local.
 ```
 ### 2.8 Pull arguments
 ```
