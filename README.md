@@ -285,7 +285,9 @@ git checkout -b absolutamenteNoEsMain o/main
 
 Crea una nueva rama llamada absolutamenteNoEsMain y la hace trackear a o/main.
 
-Si haceos:  git checkout -b foo o/main; git pull observar donde queda main.
+Si haceos:
++ git checkout -b foo o/main; (esto nos deja sobre la rama foo)
++ git pull;  observar donde queda la rama main (la rama main no se actualizo)
 
 ![](https://github.com/pauloesc/GitComandos/blob/main/imgagenes/2.png)
 
