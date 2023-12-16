@@ -321,7 +321,9 @@ Especificando main como el parámetro "lugar", le dijimos a git de dónde traer 
 
 ***Tené en cuenta que, como le dijimos a git todo lo que necesitaba saber (especificando ambos parámetros), ¡ignora totalmente dónde estamos parados en este momento¡***
 
+```
 git push <remoto> <lugar>
+```
 
 -------------------------------
 
@@ -332,6 +334,23 @@ git push origin foo;
 ```
 
 ### 2.5 Git push arguments — Expanded!
+
+En la lección anterior cuando especificamos main como el parámetro lugar de git push, especificamos tanto el origen del cual sacar los commits como el destino al cual enviarlos.
+
+¿Y si quisiéramos que el origen y el destino sean distintos?
+
+¿Si quisieras pushear los commits de la rama local foo a la rama bar del remote?
+
+Para especificar tanto el origen como el destino de <lugar>, simplemente unilos usando dos puntos...
+```
+git push origin <origen>:<destino>
+```
+
+¿Y qué hay si el destino al que querés pushear no existe? Simplemente dale un nombre al branch y git se va a encargar de creártelo en el remoto. 
+```
+git push origin main:newBranch 
+```
+
 ```
 git push origin master~1:foo;
 git push origin foo:master;
