@@ -225,6 +225,10 @@ En este caso, el comando git push es ambiguo. Si corrés git push, ¿git deberí
 
 Como hay tanta ambiguedad en esta situación (en que la historia divirgió), git no te permite pushear tus cambios. En cambio, te fuerza a integrar el último estado del repositorio remoto antes de poder compartir tu trabajo.
 
+Un posible solucion es:
++ git fetch (parado sobre main)
++ git rebase o/main
++ git push
 
 ```
 git clone;
