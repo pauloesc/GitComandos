@@ -374,6 +374,11 @@ Git va a ir a la rama foo en el remoto, va a traer todos los commits que no est√
 
 "git fetch" no actualiza tus ramas locales no remotas, s√≥lo descarga los commits.
 
+Tambien es posible hacer:
+```
+git fetch origin <origen>:<destino> 
+```
+------------------
 ```
 git fetch origin master~1:foo;
 git fetch origin foo:master;
