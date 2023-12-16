@@ -298,6 +298,8 @@ Si hacemos:
 
 El resultado deja los repositorios (local y remoto) como la foto de arriba.
 
+Otra forma de especificar la rama a trackear es usar la opción git branch -u. Ejecutando git branch -u o/main foo.
+
 ```
 git checkout -b side o/master;
 git commit;
