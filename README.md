@@ -308,6 +308,24 @@ git push;
 ```
 
 ### 2.4 Git push arguments
+
+Aprendimos en la lección sobre ramas remotas que git determinó el remoto y la rama a la que pushear mirando las propiedades de la rama actual (el remoto al que "trackea").
+
+-------------------------------
+
+"git push origin main" se traduce así al español:
+
+Andá a la rama "main" en mi repositorio, agarrá todos los commits, y después andá a la rama "main" del remoto llamado "origin". Aplicá ahí todos los commits que falten, y avisame cuando termines.
+
+Especificando main como el parámetro "lugar", le dijimos a git de dónde traer los commits, y a dónde mandarlos. Es, básicamente, el "lugar" o "ubicación" que sincronizar entre ambos repositorios.
+
+***Tené en cuenta que, como le dijimos a git todo lo que necesitaba saber (especificando ambos parámetros), ¡ignora totalmente dónde estamos parados en este momento¡***
+
+git push <remoto> <lugar>
+
+-------------------------------
+
+
 ```
 git push origin master;
 git push origin foo;
