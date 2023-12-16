@@ -350,6 +350,10 @@ git push origin <origen>:<destino>
 ```
 git push origin main:newBranch 
 ```
+EL comando anterior deja los repos asi:
+
+![](https://github.com/pauloesc/GitComandos/blob/main/imgagenes/3.png)
+
 
 ```
 git push origin master~1:foo;
