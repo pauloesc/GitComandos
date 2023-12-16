@@ -214,6 +214,16 @@ git push;
 ```
 
 ### 1.7 Diverged History
+
+
+
+Imaginate que clonás un repositorio el lunes y empezás a desarrollar algo. Para el viernes tenés todo listo para publicar tu trabajo, pero, ¡oh, oh! Tus colegas también escribieron código durante la semana, haciendo que tu trabajo quede desactualizado (y obsoleto). Además, publicaron esos commits en el repositorio remoto, así que ahora tu trabajo está basado en una versión vieja del proyecto, que ya no le interesa a nadie.
+
+En este caso, el comando git push es ambiguo. Si corrés git push, ¿git debería cambiar el repositorio a como estaba el lunes? ¿Debería tratar de agregar tu código sin eliminar el código nuevo? ¿O debería ignorar completamente tus cambios porque están desactualizados?
+
+Como hay tanta ambiguedad en esta situación (en que la historia divirgió), git no te permite pushear tus cambios. En cambio, te fuerza a integrar el último estado del repositorio remoto antes de poder compartir tu trabajo.
+
+
 ```
 git clone;
 git fakeTeamwork;
