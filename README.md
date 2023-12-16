@@ -186,7 +186,7 @@ git fetch;
 
 ### 1.4 Git Pullin’
 
-Para fetchear cambios remotos y después mergearlos usamos:
+Para fetchear cambios remotos y después mergearlos usamos "git fetch", (hay que tener cuidado de en que rama estamos parados)(creo)
 
 ```
 git pull;
