@@ -230,6 +230,15 @@ Un posible solucion es:
 + git rebase o/main
 + git push
 
+¡git pull --rebase es un atajo para hacer fetch y rebase!
+
+Otra posible solucion es:
++ git fetch (parado sobre main)
++ git merge o/main
++ git push
+
+¡git pull es simplemente un atajo para hacer fetch y merge!
+
 ```
 git clone;
 git fakeTeamwork;
