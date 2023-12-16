@@ -247,6 +247,14 @@ git pull --rebase;
 git push;
 ```
 
+### 1.8 Main Bloqueado
+
+```
+git reset --hard o/main
+git checkout -b feature C2
+git push origin feature
+```
+
 ### 2.1 Push Master!
 ```
 git fetch;
