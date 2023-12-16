@@ -276,6 +276,21 @@ git push;
 ```
 
 ### 2.3 Remoting Tracking
+
+Podés hacer que cualquier rama que quieras trackee o/main, y si lo hicieras, esa rama va a tener el mismo destino implícito de push y objetivo implícito de merge que main. Eso significa que podés correr git push en una rama llamada absolutamenteNoEsMain y ¡que tu trabajo se pushee a la rama main del remoto!
+
+Hay dos formas de establecer esta propiedad. La primera es checkoutear una nueva rama usando una rama remota como la referencia especificada.
+
+git checkout -b absolutamenteNoEsMain o/main
+
+Crea una nueva rama llamada absolutamenteNoEsMain y la hace trackear a o/main.
+
+Si haceos:  git checkout -b foo o/main; git pull observar donde queda main.
+
+![](https://github.com/pauloesc/GitComandos/blob/main/imgagenes/2.png)
+
+
+
 ```
 git checkout -b side o/master;
 git commit;
