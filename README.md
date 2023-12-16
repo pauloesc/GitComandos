@@ -363,6 +363,17 @@ git push origin foo:master;
 ```
 
 ### 2.6 Fetch arguments
+
+Si especificás un lugar con git fetch como en el comando siguiente:
+
+```
+git fetch origin foo
+```
+
+Git va a ir a la rama foo en el remoto, va a traer todos los commits que no estén presentes localmente, y luego los aplicará sobre la rama o/foo local, no hara cambios a la rama foo local (si a la o/foo).
+
+"git fetch" no actualiza tus ramas locales no remotas, sólo descarga los commits.
+
 ```
 git fetch origin master~1:foo;
 git fetch origin foo:master;
