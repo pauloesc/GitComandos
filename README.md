@@ -292,7 +292,7 @@ Si haceos:
 ![](https://github.com/pauloesc/GitComandos/blob/main/imgagenes/2.png)
 
 Si hacemos:
-+ git checkout -b foo o/main;
++ git checkout -b foo o/main; (esto nos deja sobre foo)
 + git commit;
 + git push (en el remoto si se actualiza la rama main, de hecho foo no existe en el remoto)
 
