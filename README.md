@@ -201,6 +201,9 @@ git pull;
 ```
 
 ### 1.6 Git Pushin’
+
+git push es el responsable de subir tus cambios a un remoto
+
 ```
 git clone;
 git commit;
