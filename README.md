@@ -215,7 +215,7 @@ git push;
 
 ### 1.7 Diverged History
 
-
+***si en la siguiente situacion hacemos git push no sucedera nada***.
 
 Imaginate que clonás un repositorio el lunes y empezás a desarrollar algo. Para el viernes tenés todo listo para publicar tu trabajo, pero, ¡oh, oh! Tus colegas también escribieron código durante la semana, haciendo que tu trabajo quede desactualizado (y obsoleto). Además, publicaron esos commits en el repositorio remoto, así que ahora tu trabajo está basado en una versión vieja del proyecto, que ya no le interesa a nadie.
 
